@@ -47,3 +47,6 @@ except KeyError:
     print("this error was occured bez search key doesnt exist")
 
 #one tryblock and multiple except can be written but it will execute one except method at one time 
+
+except Exception as err:#Exception keyword can handle all kind of defined exceptions in python /error in python
+    print("error occured and message :",err)
